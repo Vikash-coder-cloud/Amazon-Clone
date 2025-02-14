@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <link rel="icon" href="icon.jpeg" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/0a9c8df752.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="nav-bar-background">
+    <div class="img-card effect">
+      <img src="amazon_PNG11.png" class="amazon-logo" />
+      <a class="logo-in">.in</a>
+    </div>
+    <div class="effect locationAndIconCard">
+      <div class="location-card-icon">
+        <i class="fa-solid fa-location-dot location-icon"></i>
+      </div>
+      <div class="location-text-card">
+        <p class="pincode">Delivering to Patna 800001</p>
+        <p class="updateLocation">Update location</p>
+      </div>
+    </div>
+    <div class="searchbox-card">
+      <select class="dropbox-card">
+        <option>All Categories</option>
+        <option>books</option>
+      </select>
+      <input class="input-card" placeholder="Search Amzaon.in" />
+      <button class="searchbutton-card">
+        <i class="fa-solid fa-magnifying-glass searchbox-icon"></i>
+      </button>
+    </div>
+    <div class="language-card ">
+      <img src="Flag-India.webp" class="indian-flag-card" />
+      <p class="En-card">EN</p>
+    </div>
+    <div class="signIn-card">
+      <p class="signIn">Hello, sign in</p>
+      <p class="account">Account & Lists</p>
+    </div>
+    <div class="signIn-card">
+      <p class="signIn">Returns</p>
+      <p class="account">& Orders</p>
+    </div>
+    <div class="Cart-card">
+      <i class="fa-solid fa-cart-shopping Cart-icon"></i>
+      <p class="Cart">Cart</p>
+    </div>
+  </div>
+  <!-- ^^NavSearchBar^^ -->
+  <div class="optionNavbar">
+    <div class="border1" id="All">
+      <i class="fa-solid fa-bars"
+        style="color: #ffffff; font-size: 2.5vh; margin-top:2px; margin-right: 4px !important;"></i>
+      <span class="All">All</span>
+    </div>
+    <div class="space">
+      <a href="">MX Player</a>
+    </div>
+    <div class="space">
+      <a href="">Sell</a>
+    </div>
+    <div class="space">
+      <a href="">Best Seller</a>
+    </div>
+    <div>
+      <a href="">Today's Deals</a>
+    </div>
+    <div class="space">
+      <a href="">Mobiles</a>
+    </div>
+    <div class="space">
+      <a href="">Electronics</a>
+    </div>
+    <div class="space">
+      <a href="">Home & Kitchen</a>
+    </div>
+    <div>
+      <a href="">Customer Service</a>
+    </div class="space">
+    <div class="border1">
+      <span>Prime</span>
+      <i class="fa-solid fa-angle-down arrow-icon"></i>
+    </div>
+    <div class="space">
+      <a href="">Amazon Pay</a>
+    </div>
+    <div class="space">
+      <a href="">New Releases</a>
+    </div>
+    <div class="space">
+      <a href="">Fashion</a>
+    </div>
+    <div class="space">
+      <a href="">Car & Motorbike</a>
+    </div>
+  </div>
+  </div>
+  <!-- ^^  NavTextBar  ^^ -->
+
+  <div class="carousel-container">
+    <div id="amazonCrouselButton" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="PC_hero_1_2x_1._CB582889946_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="PC_Hero_1_3000._CB582457311_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Tall_Hero_1500X600_BAU_NewLaunches._CB554931622_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Nov_New_3000x1200._CB542180708_.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev next-Button" type="button" data-bs-target="#amazonCrouselButton"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next next-Button" type="button" data-bs-target="#amazonCrouselButton"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- 4 v 4 Box  -->
+
+  <div class="custom-card">
+    <div class="fourBoxContainer">
+      <div class="boxContainer">
+        <div class="boxHeading">
+          <p>Explore more from Small Businesses</p>
+        </div>
+        <div class="imageContainer">
+          <div>
+            <div class="imageBox">
+              <img src="Desktop_QC_Clothing_1x._SY116_CB540581077_.jpg" alt="">
+              <p>Ethnic, dresses & more</p>
+            </div>
+            <div class="imageBox">
+              <img src="Desktop_QC_Fashion_Accessories_1x._SY116_CB540581077_.jpg" alt="">
+              <p>Fashion accessories</p>
+            </div>
+          </div>
+          <div>
+            <div class="imageBox">
+              <img src="Desktop_QC_Decor_1x._SY116_CB540581077_.jpg" alt="">
+              <p>Decor</p>
+            </div>
+            <div class="imageBox">
+              <img src="Desktop_QC_Glasses_1x._SY116_CB540581077_.jpg" alt="">
+              <p>Glassware & drinkware</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="boxContainerLink">Explore all</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourBoxContainer">
+      <div class="boxContainer">
+        <div class="boxHeading">
+          <p>Revamp your home in style</p>
+        </div>
+        <div class="imageContainer">
+          <div>
+            <div class="imageBox">
+              <img src="186x116_Home_furnishings_2._SY116_CB555624324_.jpg" alt="">
+              <p>Cushion covers, bedsheets & more</p>
+            </div>
+            <div class="imageBox">
+              <img src="186x116_Home_storage_1._SY116_CB555624324_.jpg" alt="">
+              <p>Home storage</p>
+            </div>
+          </div>
+          <div>
+            <div class="imageBox">
+              <img src="186x116_Home_decor_1._SY116_CB555624324_.jpg" alt="">
+              <p>Figurines, vases & more</p>
+            </div>
+            <div class="imageBox">
+              <img src="186x116_Home_lighting_2._SY116_CB555624324_.jpg" alt="">
+              <p>Lighting solutions</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="boxContainerLink">Explore all</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourBoxContainer">
+      <div class="boxContainer">
+        <div class="boxHeading">
+          <p>Automotive essentials | Up to 60% off</p>
+        </div>
+        <div class="imageContainer">
+          <div>
+            <div class="imageBox">
+              <img src="Glasscare1X._SY116_CB410830553_.jpg" alt="">
+              <p>Cleaning accessories</p>
+            </div>
+            <div class="imageBox">
+              <img src="Vega_helmet_186x116._SY116_CB405090404_.jpg" alt="">
+              <p>Helmets</p>
+            </div>
+          </div>
+          <div>
+            <div class="imageBox">
+              <img src="Rim_tyrecare1x._SY116_CB410830552_.jpg" alt="">
+              <p>Tyre & rim care</p>
+            </div>
+            <div class="imageBox">
+              <img src="Vaccum1x._SY116_CB410830552_.jpg" alt="">
+              <p>Vacuum cleaner</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="boxContainerLink">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourBoxContainer mr-0">
+      <div class="boxContainer">
+        <div class="boxHeading">
+          <p>Starting ₹149 | Headphones</p>
+        </div>
+        <div class="imageContainer">
+          <div>
+            <div class="imageBox">
+              <img src="PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg" alt="">
+              <p>Starting ₹249 | boAt</p>
+            </div>
+            <div class="imageBox">
+              <img src="PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg" alt="">
+              <p>Starting ₹649 | Noise</p>
+            </div>
+          </div>
+          <div>
+            <div class="imageBox">
+              <img src="PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg" alt="">
+              <p>Starting ₹349 | boult</p>
+            </div>
+            <div class="imageBox">
+              <img src="PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg" alt="">
+              <p>Starting ₹149 | Zebronics</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="boxContainerLink">See all offers</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-effectforgrey">
+
+    <!-- long bar -->
+    <div class="photo-belt">
+      <div class="percentagetextbar">
+        <h1 class="percentagetext">
+          Up to 60% off | Unique products from stores nearby
+        </h1>
+        <a class="seeOffers">See all offers</a>
+      </div>
+      <button class="photobeltbutton left-button-imgbelt effectForPhotobelt" onclick="slideLeft()">&#10094;</button>
+      <div class="photoBelt">
+        <div class="card-bestimg">
+          <img src="51sQjcBcOPL._AC_SY200_.jpg" class="beltimg" />
+          <img src="61DyvlAaULL._AC_SY200_.jpg" class="beltimg" />
+          <img src="71TjZhTiLHL._AC_SY200_ (1).jpg" class="beltimg" />
+          <img src="61tmXraNBcL._AC_SY200_ (1).jpg" class="beltimg" />
+          <img src="71TZMvymzgL._AC_SY200_.jpg" class="beltimg" />
+          <img src="81hwfAQCApL._AC_SY200_.jpg" class="beltimg" />
+          <img src="81Qy0NoWbtL._AC_SY200_.jpg" class="beltimg" />
+          <img src="719VBCLArhL._AC_SY200_.jpg" class="beltimg" />
+          <img src="71LcXBPTt-L._AC_SY200_.jpg" class="beltimg" />
+          <img src="51ADWo4ZOZL._AC_SY200_.jpg" class="beltimg" />
+          <img src="81Gtya3i-WL._AC_SY200_.jpg" class="beltimg" />
+          <img src="91hIyGIagmL._AC_SY200_.jpg" class="beltimg" />
+          <img src="81O6J-MkUlL._AC_SY200_.jpg" class="beltimg" />
+          <img src="61sRf7oDELL._AC_SY200_.jpg" class="beltimg" />
+          <img src="71S8imcKkDL._AC_SY200_.jpg" class="beltimg" />
+          <img src="" class="beltimg" />
+          <img src="" class="beltimg" />
+          <img src="" class="beltimg" />
+          <img src="" class="beltimg" />
+        </div>
+      </div>
+      <button class="photobeltbutton right-button-imgbelt effectForPhotobelt" onclick="slideLeft()">&#10095;</button>
+    </div>
+    <div>
+      <!-- shopping Box -->
+      <div class="singleBoxGroup">
+        <div class="singleBoxContainer">
+          <div class="mainHeading">
+            <p class="mainParagraph">Up to 80% off| Top deals in home furnishings from...</p>
+          </div>
+          <div class="mainImage mb-2 shifting">
+            <img id="shopImage" class="fitImage" src="IMG-20241126-WA0014.jpg">
+            <p id="shopDetails" class="details m-0">Chipkali® Magical Universal Elastic Premium Stretchable Magic
+              Slipcover Stretch Dining…</p>
+          </div>
+          <div class="amountBox shifting">
+            <p class="amount">₹</p>
+            <p id="amountRate" class="amount max">1799</p>
+            <p class="amount">00</p>
+            <p class="MRP" style="margin-left: 20px;">M.R.P:
+            <pre> </pre>
+            </p>
+            <p id="mrpRate" class="MRP cross">₹2,499.00</p>
+          </div>
+          <div class="buttonBox">
+            <button id="deal1" class="button buttonBorder"><img class="buttonImage"
+                src="IMG-20241126-WA0014.jpg"></button>
+            <button id="deal2" class="button hoverEffect"><img class="buttonImage" 
+                src="IMG-20241126-WA0017.jpg"></button>
+            <button id="deal3" class="button hoverEffect"><img class="buttonImage"
+                src="IMG-20241126-WA0011.jpg"></button>
+            <button id="deal4" class="button hoverEffect"><img class="buttonImage"
+                src="topDeals4.png"></button>
+          </div>
+        </div>
+        <div class="singleBoxContainer">
+          <div class="mainHeading">
+            <p class="mainParagraph">Customers' Most-Loved Fashion for Women</p>
+          </div>
+          <div class="arrange">
+            <img class="image" src="IMG-20241126-WA0013.jpg">
+            <img class="image" src="IMG-20241126-WA0003.jpg">
+            <img class="image" src="IMG-20241126-WA0005.jpg">
+            <img class="image" src="IMG-20241126-WA0015.jpg">
+          </div>
+          <div class="explore" style="margin-left: 20px;">
+            <a>Explore more</a>
+          </div>
+        </div>
+        <div class="singleBoxContainer">
+          <div class="mainHeading">
+            <p class="mainParagraph">Customers' Most-Loved Fashion for Men</p>
+          </div>
+          <div class="arrange">
+            <img class="image" src="IMG-20241126-WA0018.jpg">
+            <img class="image" src="IMG-20241126-WA0010.jpg">
+            <img class="image" src="IMG-20241126-WA0007.jpg">
+            <img class="image" src="IMG-20241126-WA0012.jpg">
+          </div>
+          <div class="explore" style="margin-left: 20px;">
+            <a>Explore more</a>
+          </div>
+        </div>
+        <div class="singleBoxContainer">
+          <div class="mainHeading">
+            <p class="mainParagraph">Best Sellers in Sports, Fitness & Outdoors</p>
+          </div>
+          <div class="mainImage mb-2 shifting">
+            <img id="shopImage2" class="fitImage" src="IMG-20241126-WA0006.jpg">
+            <p id="shopDetailsEl" class="details m-0">Lifelong PVC Hex Dumbbells Pack of 2 (5kg*2) Black Color for Home
+              Gym Equip …</p>
+          </div>
+          <div class="amountBox shifting">
+            <p class="amount">₹</p>
+            <p id="amountEl" class="amount max">509</p>
+            <p class="amount">00</p>
+            <p class="MRP" style="margin-left: 20px;">M.R.P:
+            <pre> </pre>
+            </p>
+            <p id="mrpEl" class="MRP cross">₹1,000.00</p>
+          </div>
+          <div class="buttonBox">
+            <button id="gym1ButtonEl1" class="button buttonBorder"><img class="buttonImage"
+                src="IMG-20241126-WA0006.jpg"></button>
+            <button id="gym2ButtonEl2" class="button hoverEffect"><img class="buttonImage"
+                src="IMG-20241126-WA0009.jpg"></button>
+            <button id="gym3ButtonEl3" class="button hoverEffect"><img class="buttonImage"
+                src="IMG-20241126-WA0008.jpg"></button>
+            <button id="gym4ButtonEl4" class="button hoverEffect"><img class="buttonImage"
+                src="IMG-20241126-WA0016.jpg"></button>
+          </div>
+        </div>
+      </div>
+      <!-- shopping Box ^^ -->
+    </div>
+    <div>
+      <!-- Button -->
+      <div class="last-fotter-button-container">
+        <button class="last-fotter-button">Back to top</button>
+      </div>
+    </div>
+
+    <!-- 2nd last footer -->
+    <div>
+      <!-- Footer 2 -->
+
+      <div class="footerContainer">
+        <div class="footerBox">
+          <p class="footerBoxHeading">Get to Know Us</p>
+          <p class="footerBoxDetail">About Amazon</p>
+          <p class="footerBoxDetail">Careers</p>
+          <p class="footerBoxDetail">Press Releases</p>
+          <p class="footerBoxDetail">Amazon Science</p>
+        </div>
+        <div class="footerBox">
+          <p class="footerBoxHeading">Connect with Us</p>
+          <p class="footerBoxDetail">Facebook</p>
+          <p class="footerBoxDetail">Twitter</p>
+          <p class="footerBoxDetail">Instagram</p>
+        </div>
+        <div class="footerBox footerBoxBig">
+          <p class="footerBoxHeading">Make Money with Us</p>
+          <p class="footerBoxDetail">Sell on Amazon</p>
+          <p class="footerBoxDetail">Sell under Amazon Accelerator</p>
+          <p class="footerBoxDetail">Protect and Build Your Brand</p>
+          <p class="footerBoxDetail">Amazon Global Selling</p>
+          <p class="footerBoxDetail">Supply to Amazon</p>
+          <p class="footerBoxDetail">Become an Affiliate</p>
+          <p class="footerBoxDetail">Fulfilment by Amazon</p>
+          <p class="footerBoxDetail">Advertise Your Products</p>
+          <p class="footerBoxDetail">Amazon Pay on Merchants</p>
+        </div>
+        <div class="footerBox footerBoxBig">
+          <p class="footerBoxHeading">Let Us Help You</p>
+          <p class="footerBoxDetail">Your Account</p>
+          <p class="footerBoxDetail">Returns Centre</p>
+          <p class="footerBoxDetail">Recalls and Product Safety Alerts</p>
+          <p class="footerBoxDetail">100% Purchase Protection</p>
+          <p class="footerBoxDetail">Amazon App Download</p>
+          <p class="footerBoxDetail">Help</p>
+        </div>
+      </div>
+      <hr class="styleforHr">
+
+      <!-- Footer 2 ^^ -->
+    
+    </div>
+
+    <!-- 2nd last footer -->
+
+
+    <!-- 2nd last footer ^^ -->
+
+    <!-- last footer -->
+    <div>
+      <div class="last_fotter-bg">
+        <div class="last_fotter-box-container">
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line">AbeBooks</p>
+            <p class="last_fotter_anchor hover_over_line">Books, art
+              & collectibles</p>
+          </div>
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line"> Amazon Web Services </p>
+            <p class="last_fotter_anchor hover_over_line">Scalable Cloud Computing Services</p>
+          </div>
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line">Audible</p>
+            <p class="last_fotter_anchor hover_over_line">Download
+              Audio Books</p>
+          </div>
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line">IMDb</p>
+            <p class="last_fotter_anchor hover_over_line">Movies, TV
+              & Celebrities</p>
+          </div>
+        </div>
+        <div class="last_fotter-box-container">
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line">Shopbop</p>
+            <p class="last_fotter_anchor hover_over_line">Designer
+              Fashion Brands</p>
+          </div>
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line"> Amazon Business</p>
+            <p class="last_fotter_anchor  hover_over_line">Everything For
+              Your Business</p>
+          </div>
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line">Prime Now</p>
+            <p class="last_fotter_anchor hover_over_line">2-Hour Delivery
+              on Everyday Items</p>
+          </div>
+          <div class="last_fotter-box">
+            <p class="last_fotter-paragraph hover_over_line"> Amazon Prime Music</p>
+            <p class="last_fotter_anchor hover_over_line">100 million songs, ad-free</p>
+            <p class="last_fotter_anchor hover_over_line">Over 15 million podcast episodes
+            </p>
+          </div>
+        </div>
+        <div class="last_fotter-second_paragraph_box">
+          <p class="last_fotter-second_paragraph hover_over_line">Conditions of Use & Sale</p>
+          <p class="last_fotter-second_paragraph hover_over_line">Privacy Notice</p>
+          <P class="last_fotter-second_paragraph hover_over_line">Interest-Based Ads</P>
+        </div>
+        <div class="last_fotter-second_paragraph_box ">
+          <p class="last-text-footer">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
